@@ -4,7 +4,7 @@ import {Balance} from './components/Balance'
 import {IncomeExpenses} from './components/IncomeExpenses'
 import {TransactionsList} from './components/TransactionsList'
 import {AddTransaction} from './components/AddTransaction'
-import { GlobalProvider, GlobalContext } from './context/GlobalState';
+import { GlobalProvider } from './context/GlobalState';
 
 
 function App() {
