@@ -1,8 +1,11 @@
 import React, { useContext } from 'react'
 import { GlobalContext } from '../context/GlobalState'
 import { Transaction } from './Transaction'
-// conflict comment
+// comment 3
+
 export const TransactionsList = () => {
+  //vvvvvvvvvv
+  //tttttttt
   const { transactions } = useContext(GlobalContext)
   return (
     //2222222222
