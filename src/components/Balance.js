@@ -2,8 +2,9 @@ import React, { useContext } from 'react'
 import { GlobalContext, GlobalProvider } from '../context/GlobalState'
 
 export const Balance = () => {
-    
-    const {transactions} = useContext(GlobalContext)
+
+    //comment to check changes2
+    const { transactions } = useContext(GlobalContext)
     const amounts = transactions.map((transaction) => transaction.amount)
     console.log(amounts)
 
